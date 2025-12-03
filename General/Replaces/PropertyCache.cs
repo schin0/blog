@@ -33,7 +33,7 @@ public static class PropertyCache<T>
 
             _getters[keyName] = lambda;
             keysList.Add(keyName);
-        }
+        };
 
         AvailableKeys = keysList;
     }
